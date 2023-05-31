@@ -6,6 +6,32 @@
 body {
   font-family: "Poppins";
   font-weight: 600;
+  color: #191919;
+}
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: center;
+}
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #52d0f0;
+  margin-bottom: 5px;
+}
+p {
+  color: #595959;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
 .wrapper {
   max-width: 600px;
@@ -18,7 +44,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
-  /* margin: 0 40px; */
   border-bottom: 3px solid #f1f1f1;
 }
 header img {
@@ -43,7 +68,7 @@ img {
   /* gap: 20px; */
   justify-content: space-between;
   align-items: center;
-  margin: 60px  0;
+  margin: 60px 0;
 }
 .text {
   width: 300px;
@@ -61,24 +86,187 @@ h1 {
   margin-bottom: 30px;
   width: 290px;
 }
-.hero a {
+.just-btn {
   display: block;
-
+  width: max-content;
+/* like btn */
   background: #52d0f0;
   border-radius: 4px;
   color: white;
+
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   padding: 12px 36px;
-  width: max-content;
 }
 
 .hero-girl {
   width: 200px;
 }
+/* ---------1------------ */
+.title {
+  padding-top: 30px;
+}
+.design {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+}
+.design img {
+  margin-bottom: 20px;
+}
+.design p {
+  margin: 5px 0 20px 0;
+  width: 88%;
+}
+.design a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #52d0f0;
+}
+/* -----------2---------- */
+.amazing {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
 
-/*  */
+.icons {
+ 
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-between;
+}
+.icons-container {
+
+display: flex;
+}
+.icon {
+  width: 60px;
+  margin-right: 20px ;
+}
+
+.icons-items h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px
+}
+.icons-items p {
+width: 170px;
+}
+/* ------3---------- */
+.about-us {
+  padding-block: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.man-one {
+  width: 250px;
+}
+.text-about {
+  width: 250px;
+}
+h5 {
+  font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.005em;
+color: #52D0F0;
+}
+.text-about p {
+  font-size: 16px;
+  padding-block: 5px 30px;
+}
+.ul-about  {
+  padding-block: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.ul-about li {
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+.ul-about li img{
+width: 16px;
+margin-right: 10px;  
+} 
+ 
+/* -------4---------- */
+.digits{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+  text-align: center;
+  padding-block: 49px;
+  background-image: url(./image/lines-Bg-Image.png);
+}
+.digits h5 { 
+  font-size: 16px;
+  font-weight: 600;
+}
+.number{
+font-family: 'Lora';
+font-style: italic;
+font-weight: 700;
+font-size: 42px;
+line-height: 52px;
+color: #191919;
+padding-bottom: 5px;
+}
+/* --------5--------- */
+.portfolio-img {
+   padding-block: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+
+}
+
+.our-img {
+  width: 160px;
+}
+
+.our-img:last-of-type {
+  width: 340px;
+}
+/* ----6---------- */
+.event {
+  display: flex;
+  justify-content: space-between;
+ 
+  padding-block: 30px;
+}
+.hall {
+  width: 200px;
+}
+.event-title {
+  width: 300px;
+  padding-bottom: 15px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.event-icon {
+  display: flex;
+  align-items: center;
+}
+.event-icon img {
+   width: 16px ;
+  height: 16px;
+  margin-right: 10px;
+}
+
+/* ------7---------- */
+
+
+/*-==============================  */
 @media screen and (max-width: 600px) {
   header {
     flex-direction: column;
@@ -87,15 +275,11 @@ h1 {
   }
   .hero {
     flex-direction: column-reverse;
-
   }
-.text {
+  .text {
     text-align: center;
-}
-.text a {
+  }
+  .text a {
     margin: auto;
-}
-
-
-
+  }
 }
