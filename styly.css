@@ -89,7 +89,7 @@ h1 {
 .just-btn {
   display: block;
   width: max-content;
-/* like btn */
+  /* like btn */
   background: #52d0f0;
   border-radius: 4px;
   color: white;
@@ -132,28 +132,26 @@ h1 {
 }
 
 .icons {
- 
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
- justify-content: space-between;
+  justify-content: space-between;
 }
 .icons-container {
-
-display: flex;
+  display: flex;
 }
 .icon {
   width: 60px;
-  margin-right: 20px ;
+  margin-right: 20px;
 }
 
 .icons-items h3 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 28px
+  line-height: 28px;
 }
 .icons-items p {
-width: 170px;
+  width: 170px;
 }
 /* ------3---------- */
 .about-us {
@@ -171,16 +169,16 @@ width: 170px;
 }
 h5 {
   font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.005em;
-color: #52D0F0;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #52d0f0;
 }
 .text-about p {
   font-size: 16px;
   padding-block: 5px 30px;
 }
-.ul-about  {
+.ul-about {
   padding-block: 10px 20px;
   display: flex;
   flex-direction: column;
@@ -190,15 +188,14 @@ color: #52D0F0;
   padding-bottom: 5px;
   font-weight: 400;
   font-size: 14px;
-  
 }
-.ul-about li img{
-width: 16px;
-margin-right: 10px;  
-} 
- 
+.ul-about li img {
+  width: 16px;
+  margin-right: 10px;
+}
+
 /* -------4---------- */
-.digits{
+.digits {
   display: flex;
   justify-content: space-between;
   /* gap: 20px; */
@@ -206,26 +203,25 @@ margin-right: 10px;
   padding-block: 49px;
   background-image: url(./image/lines-Bg-Image.png);
 }
-.digits h5 { 
+.digits h5 {
   font-size: 16px;
   font-weight: 600;
 }
-.number{
-font-family: 'Lora';
-font-style: italic;
-font-weight: 700;
-font-size: 42px;
-line-height: 52px;
-color: #191919;
-padding-bottom: 5px;
+.number {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  color: #191919;
+  padding-bottom: 5px;
 }
 /* --------5--------- */
 .portfolio-img {
-   padding-block: 30px;
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
-
+  padding-block: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .our-img {
@@ -239,7 +235,7 @@ padding-bottom: 5px;
 .event {
   display: flex;
   justify-content: space-between;
- 
+
   padding-block: 30px;
 }
 .hall {
@@ -258,13 +254,12 @@ padding-bottom: 5px;
   align-items: center;
 }
 .event-icon img {
-   width: 16px ;
+  width: 16px;
   height: 16px;
   margin-right: 10px;
 }
 
 /* ------7---------- */
-
 
 /*-==============================  */
 @media screen and (max-width: 600px) {
@@ -282,4 +277,89 @@ padding-bottom: 5px;
   .text a {
     margin: auto;
   }
+  /* 1 */
+  .design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .design {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .design img {
+    margin-bottom: 10px;
+  }
+  h3,
+  p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .design p {
+    width: 75%;
+    margin: auto;
+  }
+  .digital img:first-of-type {
+    margin-top: 20px;
+  }
+  .digital {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .digital a {
+    display: block;
+    border: 1px solid #52d0f0;
+    border-radius: 5px;
+    padding: 4px 16px;
+    margin: 5px auto;
+    width: max-content;
+  }
+  /* 2 */
+
+  .icons {
+    justify-content: center;
+  }
+  /* 3 */
+  .about-us {
+    flex-direction: column;
+  }
+  h5 {
+    text-align: center;
+  }
+  .just-btn {
+    margin: auto;
+  }
+  /* 4 */
+  .digits {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+    justify-content: space-around;
+  }
+/* 5 */
+.portfolio-img {
+justify-content: center;
+}
+/* 6 */
+.event {
+  flex-direction: column;
+  align-items: center;
+  padding-block: 20px 0;
+}
+.hall {
+  width: 300px;
+  margin: 0 auto;
+}
+.event-title {
+  margin: 0 auto;
+}
+
+
+  /* end */
 }
